@@ -39,3 +39,10 @@ body {
 p, ol, h1, p a{
   color:orange;
 }
+
+img {
+  margin: 10px auto 10px auto;
+  border: 15px dotted red;
+  border-radius: 500px;
+  width: 100%;
+}
