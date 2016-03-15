@@ -3,15 +3,28 @@ body {
   background-size: cover;
 }
 
-.nav {
+.nav_custom {
   text-align: center;
   width: 200px;
   margin:auto;
   padding-bottom: 50vh;
+}
+.rightnav {
+  width: 160px;
+  float: right;
+  text-align: right;
 }
 
 .vertical-center {
   min-height: 100vh; /* These two lines are counted as one :-)       */
   display: flex;
   align-items: center;
+}
+
+a {
+  color: white;
+}
+
+a:active {
+  color: pink;
 }
