@@ -21,10 +21,25 @@ body {
   align-items: center;
 }
 
+.picture_box {
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+}
+
 a {
   color: white;
 }
 
 a:active {
+  color: pink;
+}
+
+img {
+  width: 49%;
+  padding: 5px;
+}
+
+h1, p, ol {
   color: pink;
 }
